@@ -11,9 +11,9 @@ repositories {
 }
 
 dependencies {
-    implementation("org.sonarsource.api.plugin:sonar-plugin-api:latest.release") // tested with 9.8.0.203
-    implementation("org.sonarsource.sonarqube:sonar-plugin-api-impl:latest.release") // tested with 9.7.1.62043
-    implementation("org.sonarsource.java:java-frontend:latest.release") // tested with 7.15.0.30507
+    implementation("org.sonarsource.api.plugin:sonar-plugin-api:9.8.0.203") // tested with 9.8.0.203
+    implementation("org.sonarsource.sonarqube:sonar-plugin-api-impl:9.4.0.54424") // tested with 9.7.1.62043
+    implementation("org.sonarsource.java:java-frontend:7.15.0.30507") // tested with 7.15.0.30507
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
